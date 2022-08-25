@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-#Resume
+# Resume
 Here is a link to my resume. Thank you!
 
 ## Virtualization Hosts
@@ -16,7 +16,9 @@ These give me a large playground in which I can run practically anything.
 
 
 Host1 is running vmWare's ESXi
+
 Host2 is running Microsoft Server and HyperV
+
 Host3 is slated to run Proxmox
 
 
