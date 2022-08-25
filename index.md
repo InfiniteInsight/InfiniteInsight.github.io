@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+#Resume
+Here is a link to my resume. Thank you!
 
 ## Virtualization Hosts
 
