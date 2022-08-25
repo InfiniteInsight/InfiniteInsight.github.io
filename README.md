@@ -6,9 +6,9 @@
 
 ![Thumbnail of Cayman](thumbnail.png)
 
-## Usage
+## Virtualization Hosts
 
-To use the Cayman theme:
+I have three Simplivity Omnicube nodes (Dell R730xd's)
 
 1. Add the following to your site's `_config.yml`:
 

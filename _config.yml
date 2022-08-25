@@ -1,5 +1,5 @@
 title: Evan Nevermore's Test Lab
-description: An overview of my test lab, the things I have done, and plan to do
+description: An overview of my test lab and my projects
 show_downloads: false
 google_analytics: G-7H0ZWJFEJZ
 theme: jekyll-theme-cayman
@@ -7,3 +7,5 @@ gist:
   noscript: false
 lsi: false
 safe: true
+incremental: false
+highlighter: rouge
