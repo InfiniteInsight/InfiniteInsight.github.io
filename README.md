@@ -1,3 +1,3 @@
-# InfiniteInsight.github.io
+# An overview of my test lab
 
 Hiya, world.
