@@ -2,10 +2,11 @@
 layout: default
 ---
 # Resume
+* * *
 Here is a link to my resume. Thank you!
 
 ## Virtualization Hosts
-
+* * *
 I have three Simplivity Omnicube nodes (Dell R730xd's) which I have elected not to use in a hyperconverged fashion. 
 These give me a large playground in which I can run practically anything.
 
@@ -23,6 +24,7 @@ Host3 is slated to run Proxmox
 
 
 ## Network Gear
+* * *
 <dl>
 <dt>Router</dt>
 <dd>Mikrotik hEX</dd>
@@ -42,24 +44,39 @@ Host3 is slated to run Proxmox
 <dd>EVE-NG network simulator</dd>
 </dl>
 
-## The fun stuff! 
-
+## Projects and Practice - the fun stuff!
+* * *
 test.nevermorelab.com Active directory domain
+
 Exchange
+
 Security Onion
-VulnHub
+
+VulnHub VMs
+
 Cuckoo Sandbox
+
 ACME security certificate automation
+
 Mandiant Commando VM
+
 Kali Linux
+
+Malware Traffic Analysis
+
 
 
 ## Things I want to do
-Set up a SANS DShield honeypot
-Elastic Stack from Scratch
-Set up Mandiant FLARE VM
-Arkime
-CSI Linux
+* Set up a SANS DShield honeypot
+* Elastic Stack from Scratch
+* Set up Mandiant FLARE VM
+* Arkime
+* CSI Linux
+* EVE-NG
+* Zeek
+* Google Gruyere
+* WebGoat
+
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
