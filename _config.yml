@@ -1,17 +1,5 @@
-lsi: false
-safe: true
-source: [your repo's top level directory]
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
-remote_theme: pages-themes/cayman@v0.2.0
-plugins:
-- jekyll-remote-theme 
-title: Nevermorelab.com
-description: This is a page where I talk about my test lab
-show_downloads: false
-google_analytics: G-7H0ZWJFEJZ
+title: Cayman theme
+description: Cayman is a clean, responsive theme for GitHub Pages.
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-cayman
