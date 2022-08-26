@@ -3,6 +3,8 @@ description: An overview of my test lab and my projects
 show_downloads: false
 name: Mr.Nevermore
 theme: jekyll-theme-cayman
+baseurl: /
+repository: InfiniteInsight.github.io
 gist:
   noscript: false
 lsi: false
