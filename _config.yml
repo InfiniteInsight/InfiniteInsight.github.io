@@ -11,6 +11,15 @@ lsi: false
 safe: true
 incremental: false
 highlighter: rouge
+plugins:
+  - "jekyll-seo-tag"
+  - "jemoji"
+  - "jekyll-include-cache"
+
+whitelist:
+  - "jekyll-seo-tag"
+  - "jemoji"
+  - "jekyll-include-cache"
 
 # Google Analytics
 google_analytics: G-7H0ZWJFEJZ
