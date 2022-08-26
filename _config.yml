@@ -16,5 +16,5 @@ highlighter: rouge
 google_analytics: G-7H0ZWJFEJZ
 
 # JavaScript
-head_scripts:
-  - read-progress.js
+#head_scripts:
+#  - read-progress.js
