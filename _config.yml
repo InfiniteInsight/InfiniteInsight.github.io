@@ -17,4 +17,4 @@ google_analytics: G-7H0ZWJFEJZ
 
 # JavaScript
 head_scripts:
-  - /assets/js/read-progress.js
+  - read-progress.js
