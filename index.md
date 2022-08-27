@@ -77,7 +77,7 @@ Malware Traffic Analysis
 Solar Water Heater temperature monitor and Grafana dashboard
 
 
-## Things that are on the drawing board
+## Things that are on the drawing board - the future fun stuff!
 * * *  
 * Set up a SANS DShield honeypot
 * Elastic Stack from Scratch
