@@ -110,4 +110,4 @@ Solar Water Heater temperature monitor and Grafana dashboard
 
 Thanks for taking the time to check out my home test lab!
 
-[Cat Tax!](./cattax.html)
+## [Cat Tax!](./cattax.html) 🐈😺🐈‍⬛ 
