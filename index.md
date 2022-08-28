@@ -40,7 +40,7 @@ Host3 is going to be either KVM or Proxmox
 <dd>Cisco Aironet WAPs</dd>
 <dt>Firewall</dt>
 <dd>Cisco ASA 5520</dd>
-<dt>Slated to do:</dt>
+<dt>Network Simulation</dt>
 <dd>EVE-NG network simulator</dd>
 </dl>
 
@@ -76,6 +76,8 @@ Malware Traffic Analysis
 
 Solar Water Heater temperature monitor and Grafana dashboard
 
+EVE-NG (emulated virtual environment - next generation)
+
 
 ## Things that are on the drawing board - the future fun stuff!
 * * *  
@@ -85,7 +87,6 @@ Solar Water Heater temperature monitor and Grafana dashboard
 * Arkime
 * CSI Linux
 * Splunk
-* EVE-NG
 * Zeek
 * Google Gruyere
 * WebGoat
