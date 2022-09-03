@@ -29,6 +29,7 @@ Host3 is going to be either KVM or Proxmox
 <dt>Router</dt>
 <dd>Mikrotik hEX</dd>
 <dd>pfSense VM</dd>
+<dd>Mikrotik RouterOS VM</dd>
 <dt>Switch</dt>
 <dd>Cisco Catalyst 3560G</dd>
 <dt>DNS</dt>
@@ -54,29 +55,21 @@ _Note: Storage calculations above don't include networked storage. These two Syn
 
 ## Projects and Practice - the fun stuff!
 * * *
-test.nevermorelab.com Active directory domain
+- test.nevermorelab.com Active directory domain
+- Exchange
+- Security Onion
+- VulnHub VMs
+- Cuckoo Sandbox
+- ACME security certificate automation
+- Mandiant Commando VM
+- Kali Linux
+- PowerShell Logging
+- Malware Traffic Analysis
+- Solar Water Heater temperature monitor and Grafana dashboard
+- EVE-NG (emulated virtual environment - next generation)
+- Docker Host
+  - Jenkins container
 
-Exchange
-
-Security Onion
-
-VulnHub VMs
-
-Cuckoo Sandbox
-
-ACME security certificate automation
-
-Mandiant Commando VM
-
-Kali Linux
-
-PowerShell Logging
-
-Malware Traffic Analysis
-
-Solar Water Heater temperature monitor and Grafana dashboard
-
-EVE-NG (emulated virtual environment - next generation)
 
 
 ## Things that are on the drawing board - the future fun stuff!
@@ -95,6 +88,7 @@ EVE-NG (emulated virtual environment - next generation)
 * Ansible
 * Terraform
 * Link on prem AD to AAD / Hybrid Environment
+* Complete CI/CD pipeline with Dynamic code scanning
 
 
 ## Client Devices
@@ -111,4 +105,4 @@ EVE-NG (emulated virtual environment - next generation)
 
 Thanks for taking the time to check out my home test lab!
 
-## [Cat Tax!](./cattax.html) 🐈😺🐈‍⬛ 
+## [Click here to be paid your Cat Tax!](./cattax.html) 🐈😺🐈‍⬛ 
