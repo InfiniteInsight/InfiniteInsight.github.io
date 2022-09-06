@@ -69,6 +69,7 @@ _Note: Storage calculations above don't include networked storage. These two Syn
 - EVE-NG (emulated virtual environment - next generation)
 - Docker Host
   - Jenkins container
+  - Jenkins agents
 
 
 
@@ -82,7 +83,8 @@ _Note: Storage calculations above don't include networked storage. These two Syn
 * Splunk
 * Zeek
 * Google Gruyere
-* WebGoat
+* OWASP Juice Shop
+* OWASP WebGoat
 * OpenVAS
 * Nessus essentials
 * Ansible
