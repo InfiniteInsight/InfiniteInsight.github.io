@@ -10,7 +10,7 @@ Lenore
 ![Lenore](/assets/images/LenoreCatTax.jpeg)
 
 Mercedes
-![Merdedes](/assets/images/MercedesCatTax.jpeg)
+![Mercedes](/assets/images/MercedesCatTax.jpeg)
 
 Mabel
 ![Mabel](/assets/images/MabelCatTax.jpeg)

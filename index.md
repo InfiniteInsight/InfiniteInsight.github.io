@@ -2,6 +2,39 @@
 layout: default
 ---
 
+## Development Workstation
+* * * 
+HP Z2 G9 Workstation
+* 64 GB RAM
+* Intel i9-12900
+* 8TB nVME
+* Nvidia RTX-A2000 12GB
+* Yubico HSM2
+
+This primarily serves as a local code repository and docker host
+
+### Containers:
+* Technitium DNS Server
+* Consul and Registrator
+* Hashi Vault
+* OWASP Dependency Track
+* SonarQube
+* Jenkins
+* N8n
+* Flagsmith
+* ChangeDetection
+* Akto
+* Locust
+* Grafana Observability stack; Grafana, Loki, Tempo, Mimir, Pyroscope
+* K6
+* Weavescope
+* Prometheus
+* Jupyter
+* Prowler
+* Kong
+* Localstack
+
+
 ## Virtualization Hosts
 * * *
 I have three Simplivity Omnicube nodes (Dell R730xd's) which I have elected not to use in a hyperconverged fashion. 
@@ -31,14 +64,16 @@ Host3 is going to be either KVM or Proxmox
 <dd>pfSense VM</dd>
 <dd>Mikrotik RouterOS VM</dd>
 <dt>Switch</dt>
+<dd>Ubiquity Unifi USW-48G</dd>
 <dd>Cisco Catalyst 3560G</dd>
 <dt>DNS</dt>
-<dd>PiHole x2</dd>
+<dd>PiHole x2, Technitium</dd>
 <dt>10GigE Switching</dt>
 <dd>Dell PowerConnect 8132</dd>
 <dt>Wireless</dt>
 <dd>Cisco 2500 WLC</dd>
 <dd>Cisco Aironet WAPs</dd>
+<dd>Deco APs</dd>
 <dt>Firewall</dt>
 <dd>Cisco ASA 5520</dd>
 <dt>Network Simulation</dt>
@@ -55,6 +90,10 @@ _Note: Storage calculations above don't include networked storage. These two Syn
 
 ## Projects and Practice - the fun stuff!
 * * *
+- [pki-x](./pkix.md) - An enterprise level security lifecycle orchestration platform
+- [csr-wizard](./csr-wizard.md) - Easily create Certificate Signing Requests and import certificates into trust stores
+- [dust-off](./dust-off.md) - Active Directory Maintenance
+- [Aegis](./aegis.md)
 - test.nevermorelab.com Active directory domain
 - Exchange
 - Security Onion
@@ -67,10 +106,6 @@ _Note: Storage calculations above don't include networked storage. These two Syn
 - Malware Traffic Analysis
 - Solar Water Heater temperature monitor and Grafana dashboard
 - EVE-NG (emulated virtual environment - next generation)
-- Docker Host
-  - Jenkins container
-  - Jenkins agents
-
 
 
 ## Things that are on the drawing board - the future fun stuff!
@@ -95,8 +130,7 @@ _Note: Storage calculations above don't include networked storage. These two Syn
 
 ## Client Devices
 * * *
-* Windows 10
-* Windows 7
+* Windows 11 / 10
 * Ubuntu
 * Rocky
 * Arch
