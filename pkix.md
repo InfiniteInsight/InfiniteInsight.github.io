@@ -27,11 +27,21 @@ This platform is in deep, heavy development and will be shared on github soon.
 
 ## Preview images
 
-![Dark mode login](/assets/images/pkix-login.png)
+![Dark mode login](/assets/images/pkix/login.png)
 
+![Certificates](assets/images/pkix/certificates.png)
 
-![Dashboard](/assets/images/NevermoreLabSide.jpeg)
+![Admin](assets/images/pkix/admin.png)
 
+![Automation](assets/images/pkix/automation.png)
+
+![CryptoProviders](assets/images/pkix/crypto-providers.png)
+
+![Reports](assets/images/pkix/reports.png)
+
+![Search](assets/images/pkix/search.png)
+
+![Templates](assets/images/pkix/templates.png)
 
 
 [back](./)

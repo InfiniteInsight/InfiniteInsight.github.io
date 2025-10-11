@@ -16,10 +16,6 @@ Cryptographically signed attestations are generated to present as evidence to de
 
 Since this is still in the research and development phases I will not share much more about it until I have more certainty.
 
-![Rack](/assets/images/NevermoreLab.gif)
-
-
-![RackSide](/assets/images/NevermoreLabSide.jpeg)
 
 
 

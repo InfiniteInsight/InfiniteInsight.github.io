@@ -2,6 +2,13 @@
 layout: default
 ---
 
+## Active Projects
+* * *
+- [pki-x](./pkix.md) - An enterprise level security lifecycle orchestration platform
+- [csr-wizard](./csr-wizard.md) - Easily create Certificate Signing Requests and import certificates into trust stores
+- [dust-off](./dust-off.md) - Active Directory and Entra Maintenance
+- [Aegis](./aegis.md) - Research and development into Code Watermarking
+
 ## Development Workstation
 * * * 
 HP Z2 G9 Workstation
@@ -90,10 +97,7 @@ _Note: Storage calculations above don't include networked storage. These two Syn
 
 ## Projects and Practice - the fun stuff!
 * * *
-- [pki-x](./pkix.md) - An enterprise level security lifecycle orchestration platform
-- [csr-wizard](./csr-wizard.md) - Easily create Certificate Signing Requests and import certificates into trust stores
-- [dust-off](./dust-off.md) - Active Directory Maintenance
-- [Aegis](./aegis.md)
+_Things I have tinkered with_
 - test.nevermorelab.com Active directory domain
 - Exchange
 - Security Onion
