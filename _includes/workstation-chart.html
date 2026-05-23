@@ -48,7 +48,7 @@
 
   function animateRipple() {
     if (hoveredIndex === -1) return;
-    rippleRadius = (rippleRadius + 0.5) % 54;
+    rippleRadius = (rippleRadius + 0.25) % 54;
     chartInstance.draw();
     animFrame = requestAnimationFrame(animateRipple);
   }
