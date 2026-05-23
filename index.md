@@ -5,9 +5,10 @@ layout: default
 ## Active Projects
 * * *
 - [pki-x](./pkix.md) - An enterprise level security lifecycle orchestration platform
-- [csr-wizard](./csr-wizard.md) - Easily create Certificate Signing Requests and import certificates into trust stores
-- [dust-off](./dust-off.md) - Active Directory and Entra Maintenance
 - [Aegis](./aegis.md) - Research and development into Code Watermarking
+- [Hearty](https://hearty.ltd) - A food and symptom journal for neurodivergent people
+- [Spectral](https://github.com/InfiniteInsight/Spectral-Privacy) - Privacy-focused email automation assistant
+- [resrc](https://resrc.support) - A community directory for finding local social services
 
 ## Development Workstation
 * * * 
