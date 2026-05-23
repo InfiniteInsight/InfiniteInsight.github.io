@@ -10,6 +10,36 @@
 
 <!-- Progress Bar -->
 <div id="progress-bar"></div>
+<style>
+#progress-bar {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+#progress-bar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: var(--scroll, 0%);
+  height: 100%;
+  background: linear-gradient(90deg,
+    hsl(270, 100%, 65%),
+    hsl(220, 100%, 60%),
+    hsl(180, 100%, 50%),
+    hsl(140, 100%, 45%),
+    hsl(60,  100%, 55%),
+    hsl(30,  100%, 60%),
+    hsl(0,   100%, 60%),
+    hsl(270, 100%, 65%)
+  );
+  background-size: 200% 100%;
+  animation: specbar 2.5s linear infinite;
+}
+@keyframes specbar {
+  from { background-position-x: 0%; }
+  to   { background-position-x: 100%; }
+}
+</style>
 <!-- End of Progress Bar -->
 
 <!-- You can set your favicon here -->
