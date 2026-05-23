@@ -47,6 +47,8 @@ These give me a large playground in which I can run practically anything.
 
 [Click here to see photos of the server rack!](./server-rack.html)
 
+{% include server-animation.html %}
+
 {% include virt-cards.html %}
 
 
