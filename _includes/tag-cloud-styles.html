@@ -1,0 +1,33 @@
+<style>
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0.75rem 0 1.25rem;
+}
+.tag {
+  display: inline-flex;
+  align-items: center;
+  background: hsl(150 30% 94%);
+  color: #1a4a2e;
+  border: 1px solid hsl(150 25% 78%);
+  border-radius: 6px;
+  padding: 0.2rem 0.65rem;
+  font-size: 0.78rem;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+  line-height: 1.5;
+  transition: background 0.15s, border-color 0.15s;
+  cursor: default;
+}
+.tag:hover {
+  background: hsl(150 35% 87%);
+  border-color: #159957;
+}
+.tag-note {
+  font-size: 0.8rem;
+  color: #819198;
+  font-style: italic;
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+}
+</style>

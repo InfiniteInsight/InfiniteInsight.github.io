@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% include tag-cloud-styles.html %}
+
 ## Active Projects
 * * *
 - [pki-x](./pkix.md) - An enterprise level security lifecycle orchestration platform
@@ -19,26 +21,33 @@ HP Z2 G9 Workstation
 This primarily serves as a local code repository and docker host
 
 ### Containers:
-* Technitium DNS Server
-* Consul and Registrator
-* Hashi Vault
-* OWASP Dependency Track
-* SonarQube
-* Jenkins
-* N8n
-* Flagsmith
-* ChangeDetection
-* Akto
-* Locust
-* Grafana Observability stack; Grafana, Loki, Tempo, Mimir, Pyroscope
-* K6
-* Weavescope
-* Prometheus
-* Jupyter
-* Prowler
-* Kong
-* Localstack
 
+<div class="tag-cloud">
+  <span class="tag">Technitium DNS</span>
+  <span class="tag">Consul</span>
+  <span class="tag">Registrator</span>
+  <span class="tag">Hashi Vault</span>
+  <span class="tag">OWASP Dependency Track</span>
+  <span class="tag">SonarQube</span>
+  <span class="tag">Jenkins</span>
+  <span class="tag">N8n</span>
+  <span class="tag">Flagsmith</span>
+  <span class="tag">ChangeDetection</span>
+  <span class="tag">Akto</span>
+  <span class="tag">Locust</span>
+  <span class="tag">Grafana</span>
+  <span class="tag">Loki</span>
+  <span class="tag">Tempo</span>
+  <span class="tag">Mimir</span>
+  <span class="tag">Pyroscope</span>
+  <span class="tag">K6</span>
+  <span class="tag">Weavescope</span>
+  <span class="tag">Prometheus</span>
+  <span class="tag">Jupyter</span>
+  <span class="tag">Prowler</span>
+  <span class="tag">Kong</span>
+  <span class="tag">Localstack</span>
+</div>
 
 ## Virtualization Hosts
 * * *
@@ -61,53 +70,56 @@ These give me a large playground in which I can run practically anything.
 ## NAS
 {% include nas-cards.html %}
 
-_Note: Storage calculations above don't include networked storage. These two Synology NAS devices represent another 14 TB that I use for backup and personal use._
+_Note: Storage calculations above don't include networked storage. These four NAS devices represent another 31 TB that I use for backup and personal use._
 
 
-## Projects and Practice - the fun stuff!
+## Projects and Practice
 * * *
-_Things I have tinkered with_
-- test.nevermorelab.com Active directory domain
-- Exchange
-- Security Onion
-- VulnHub VMs
-- Cuckoo Sandbox
-- ACME security certificate automation
-- Mandiant Commando VM
-- Kali Linux
-- PowerShell Logging
-- Malware Traffic Analysis
-- Solar Water Heater temperature monitor and Grafana dashboard
-- EVE-NG (emulated virtual environment - next generation)
 
+Things I've tinkered with — and counting. There's always more.
 
-## Things that are on the drawing board - the future fun stuff!
-* * *  
-* Set up a SANS DShield honeypot
-* Elastic Stack from Scratch
-* Set up Mandiant FLARE VM
-* Arkime
-* CSI Linux
-* Splunk
-* Zeek
-* Google Gruyere
-* OWASP Juice Shop
-* OWASP WebGoat
-* OpenVAS
-* Nessus essentials
-* Ansible
-* Terraform
-* Link on prem AD to AAD / Hybrid Environment
-* Complete CI/CD pipeline with Dynamic code scanning
+<div class="tag-cloud">
+  <span class="tag">Active Directory</span>
+  <span class="tag">Exchange</span>
+  <span class="tag">Security Onion</span>
+  <span class="tag">VulnHub VMs</span>
+  <span class="tag">Cuckoo Sandbox</span>
+  <span class="tag">ACME Certificate Automation</span>
+  <span class="tag">Mandiant Commando VM</span>
+  <span class="tag">Mandiant FLARE VM</span>
+  <span class="tag">Kali Linux</span>
+  <span class="tag">CSI Linux</span>
+  <span class="tag">PowerShell Logging</span>
+  <span class="tag">Malware Traffic Analysis</span>
+  <span class="tag">Solar Water Heater Monitor</span>
+  <span class="tag">EVE-NG</span>
+  <span class="tag">SANS DShield Honeypot</span>
+  <span class="tag">Elastic Stack</span>
+  <span class="tag">Arkime</span>
+  <span class="tag">Splunk</span>
+  <span class="tag">Zeek</span>
+  <span class="tag">Google Gruyere</span>
+  <span class="tag">OWASP Juice Shop</span>
+  <span class="tag">OWASP WebGoat</span>
+  <span class="tag">OpenVAS</span>
+  <span class="tag">Nessus Essentials</span>
+  <span class="tag">Ansible</span>
+  <span class="tag">Terraform</span>
+  <span class="tag">AD ↔ Entra Hybrid</span>
+  <span class="tag">CI/CD + Dynamic Scanning</span>
+</div>
+<p class="tag-note">…and plenty more that don't make the list.</p>
 
 
 ## Client Devices
 * * *
-* Windows 11 / 10
-* Ubuntu
-* Rocky
-* Arch
 
+<div class="tag-cloud">
+  <span class="tag">Windows 11 / 10</span>
+  <span class="tag">Ubuntu</span>
+  <span class="tag">Rocky Linux</span>
+  <span class="tag">Arch Linux</span>
+</div>
 
 
 * * *
