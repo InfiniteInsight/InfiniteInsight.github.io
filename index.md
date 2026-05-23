@@ -12,11 +12,8 @@ layout: default
 ## Development Workstation
 * * * 
 HP Z2 G9 Workstation
-* 64 GB RAM
-* Intel i9-12900
-* 8TB nVME
-* Nvidia RTX-A2000 12GB
-* Yubico HSM2
+
+{% include workstation-chart.html %}
 
 This primarily serves as a local code repository and docker host
 

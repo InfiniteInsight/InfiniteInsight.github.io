@@ -1,0 +1,116 @@
+<div style="max-width:480px; margin: 1.5rem 0;">
+  <canvas id="workstation-radar" style="display:block;"></canvas>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<script>
+(function() {
+  const SPECS = ['i9-12900', '64 GB RAM', '8 TB NVMe', 'RTX A2000 12GB', 'Yubico HSM2'];
+  const GREEN = 'rgba(21, 153, 87,';
+
+  let hoveredIndex = -1;
+  let rippleRadius = 0;
+  let animFrame = null;
+  let chartInstance = null;
+
+  const glowPlugin = {
+    id: 'glowPlugin',
+    beforeDatasetDraw(chart) {
+      chart.ctx.save();
+      chart.ctx.shadowBlur = 18;
+      chart.ctx.shadowColor = GREEN + ' 0.7)';
+    },
+    afterDatasetDraw(chart) {
+      chart.ctx.restore();
+    }
+  };
+
+  const ripplePlugin = {
+    id: 'ripplePlugin',
+    afterDatasetsDraw(chart) {
+      if (hoveredIndex === -1) return;
+      const meta = chart.getDatasetMeta(0);
+      const point = meta.data[hoveredIndex];
+      const { ctx } = chart;
+      for (let i = 0; i < 3; i++) {
+        const r = ((rippleRadius + i * 18) % 54) + 10;
+        const alpha = (1 - (r - 10) / 54) * 0.55;
+        ctx.save();
+        ctx.beginPath();
+        ctx.arc(point.x, point.y, r, 0, Math.PI * 2);
+        ctx.strokeStyle = GREEN + ' ' + alpha + ')';
+        ctx.lineWidth = 1.5;
+        ctx.stroke();
+        ctx.restore();
+      }
+    }
+  };
+
+  function animateRipple() {
+    if (hoveredIndex === -1) return;
+    rippleRadius = (rippleRadius + 0.5) % 54;
+    chartInstance.draw();
+    animFrame = requestAnimationFrame(animateRipple);
+  }
+
+  chartInstance = new Chart(document.getElementById('workstation-radar').getContext('2d'), {
+    type: 'radar',
+    plugins: [glowPlugin, ripplePlugin],
+    data: {
+      labels: ['CPU', 'Memory', 'Storage', 'GPU', 'Security'],
+      datasets: [{
+        label: 'HP Z2 G9',
+        data: [88, 75, 92, 70, 95],
+        borderColor: GREEN + ' 0.9)',
+        backgroundColor: GREEN + ' 0.08)',
+        borderWidth: 2.5,
+        pointBackgroundColor: GREEN + ' 0.9)',
+        pointRadius: 5,
+        pointHoverRadius: 12,
+        pointHoverBackgroundColor: GREEN + ' 1)',
+        fill: true,
+      }]
+    },
+    options: {
+      responsive: true,
+      onHover: (event, elements) => {
+        if (elements.length > 0) {
+          const idx = elements[0].index;
+          if (idx !== hoveredIndex) {
+            hoveredIndex = idx;
+            rippleRadius = 0;
+            cancelAnimationFrame(animFrame);
+            animateRipple();
+          }
+        } else {
+          hoveredIndex = -1;
+          cancelAnimationFrame(animFrame);
+          chartInstance.draw();
+        }
+      },
+      scales: {
+        r: {
+          min: 0,
+          max: 100,
+          ticks: { stepSize: 25, display: false },
+          grid: { color: 'rgba(0,0,0,0.45)' },
+          angleLines: { color: 'rgba(0,0,0,0.45)' },
+          pointLabels: {
+            color: '#606c71',
+            font: { size: 13, family: 'monospace' }
+          }
+        }
+      },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: (ctx) => ` ${SPECS[ctx.dataIndex]}`,
+            afterLabel: (ctx) => `  score: ${ctx.raw}/100`
+          }
+        }
+      }
+    }
+  });
+})();
+</script>
