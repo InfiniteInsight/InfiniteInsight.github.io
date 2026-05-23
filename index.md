@@ -46,48 +46,17 @@ These give me a large playground in which I can run practically anything.
 
 [Click here to see photos of the server rack!](./server-rack.html)
 
-* 218.4 GHz of compute
-* 35 TB of Storage 
-* 2.2 TB of RAM
-* Gigabit and Ten Gigabit ethernet
-* iDRAC remote management
-
-
-Host1 is running vmWare's ESXi
-
-Host2 is running Microsoft Server and HyperV
-
-Host3 is going to be either KVM or Proxmox
+{% include virt-cards.html %}
 
 
 ## Network Gear
 * * *
-<dl>
-<dt>Router</dt>
-<dd>Mikrotik hEX</dd>
-<dd>pfSense VM</dd>
-<dd>Mikrotik RouterOS VM</dd>
-<dt>Switch</dt>
-<dd>Ubiquity Unifi USW-48G</dd>
-<dd>Cisco Catalyst 3560G</dd>
-<dt>DNS</dt>
-<dd>PiHole x2, Technitium</dd>
-<dt>10GigE Switching</dt>
-<dd>Dell PowerConnect 8132</dd>
-<dt>Wireless</dt>
-<dd>Cisco 2500 WLC</dd>
-<dd>Cisco Aironet WAPs</dd>
-<dd>Deco APs</dd>
-<dt>Firewall</dt>
-<dd>Cisco ASA 5520</dd>
-<dt>Network Simulation</dt>
-<dd>EVE-NG network simulator</dd>
-</dl>
+{% include glow-card-base.html %}
+{% include network-cards.html %}
 
 
 ## NAS
-* Synology DS412+
-* Synology RS814+
+{% include nas-cards.html %}
 
 _Note: Storage calculations above don't include networked storage. These two Synology NAS devices represent another 14 TB that I use for backup and personal use._
 
