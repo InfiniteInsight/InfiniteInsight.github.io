@@ -6,11 +6,8 @@ layout: default
 
 ## Active Projects
 * * *
-- [pki-x](./pkix.md) - An enterprise level security lifecycle orchestration platform
-- [Aegis](./aegis.md) - Research and development into Code Watermarking
-- [Hearty](https://hearty.ltd) - A food and symptom journal for neurodivergent people
-- [Spectral](https://github.com/InfiniteInsight/Spectral-Privacy) - Privacy-focused email automation assistant
-- [resrc](https://resrc.support) - A community directory for finding local social services
+
+{% include project-cards.html %}
 
 ## Development Workstation
 * * * 
